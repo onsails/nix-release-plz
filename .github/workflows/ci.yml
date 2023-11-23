@@ -11,6 +11,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Install nix
         uses: DeterminateSystems/nix-installer-action@main
       - name: Setup magic nix cache
