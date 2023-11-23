@@ -17,5 +17,5 @@ jobs:
       - name: Setup magic nix cache
         uses: DeterminateSystems/magic-nix-cache-action@main
       - name: Build
-        run: nix build .#default
+        run: nix build .#default --print-build-logs
 
