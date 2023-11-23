@@ -32,5 +32,5 @@ rustPlatform.buildRustPackage rec {
     SystemConfiguration
   ]));
 
-  dontCheck = true;
+  doCheck = false;
 }
